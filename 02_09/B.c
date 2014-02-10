@@ -29,6 +29,6 @@ int main(){
 
 	res = check(A,K,N);
 	printf("%d\n",res);
-	
+
 	return 0;
 }
