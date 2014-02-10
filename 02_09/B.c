@@ -2,9 +2,6 @@
 
 int check(int A[],int K,int N){
 	int i,j,count=0,ok=0;
-	if(N/2<K){
-		return 0;
-	}
 	for(i=0;i<N-K;i++){
 		count=0;
 		for(j=0;j<K-1;j++){
